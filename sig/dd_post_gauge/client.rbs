@@ -1,0 +1,19 @@
+module DdPostGauge
+  class Client
+    @api_instance: untyped
+    @api_key: String
+    @site: String
+
+    def call: -> void
+
+    private
+
+    def api_instance: -> untyped
+
+    def body: -> untyped
+
+    def configure: -> untyped
+
+    def unix_timestamp: -> Integer
+  end
+end

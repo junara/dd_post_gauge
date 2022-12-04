@@ -1,0 +1,21 @@
+module DdPostGauge
+  class GaugeBody
+    @metric_name: String
+    @resource_name:  String | nil
+    @type_name: String | nil
+    @value: Integer | Float
+    @unix_timestamp: Integer
+
+    def payload: -> untyped
+
+    private
+
+    def points: -> untyped
+
+    def resources: -> untyped
+
+    def series: -> untyped
+
+    def type: -> untyped
+  end
+end

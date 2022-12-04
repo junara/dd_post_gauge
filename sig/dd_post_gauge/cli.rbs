@@ -1,0 +1,9 @@
+module DdPostGauge
+  class Cli
+    def self.exit_on_failure?: -> untyped
+
+    def call: -> untyped
+
+    def version: -> untyped
+  end
+end
