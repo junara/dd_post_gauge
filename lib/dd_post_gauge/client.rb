@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require "datadog_api_client"
-require_relative "./gauge_body"
+require_relative "gauge_body"
 
 module DdPostGauge
   class Client
