@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    dd_post_gauge (0.1.0)
+    dd_post_gauge (0.2.0)
       datadog_api_client
       dotenv
       thor
