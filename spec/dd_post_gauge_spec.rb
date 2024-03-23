@@ -2,6 +2,6 @@
 
 RSpec.describe DdPostGauge do
   it "has a version number" do
-    expect(DdPostGauge::VERSION).not_to be nil
+    expect(DdPostGauge::VERSION).not_to be_nil
   end
 end

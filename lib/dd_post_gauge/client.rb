@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require "datadog_api_client"
-require_relative "./gauge_body"
+require_relative "gauge_body"
 
 module DdPostGauge
   class Client
@@ -34,7 +34,7 @@ module DdPostGauge
 
     private
 
-    # @param [Time] timestamp
+    # @param [Time, nil] timestamp
     # @return [Integer]
     def unix_timestamp(timestamp)
       if timestamp
